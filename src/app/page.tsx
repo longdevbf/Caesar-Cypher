@@ -60,7 +60,7 @@ export default function CaesarCipher() {
 
   return (
     <div className="p-4 bg-gray-900 text-white min-h-screen">
-      <h1 className="text-3xl font-bold mb-4">Caesar Cipher</h1>
+      <h1 className="text-3xl font-bold mb-4">Caesar Cypher</h1>
       <div className="grid grid-cols-2 gap-4">
         <div className="bg-gray-800 p-4 rounded">
           <h2 className="text-xl mb-2" style={{ color: '#00f' }}>Encryption System</h2>
