@@ -16,7 +16,7 @@ export default function CaesarCipher() {
       .map((char: string) => {
         if (char === ' ') return " ";
         if (!alphabet.includes(char)) return '';
-        const index = (alphabet.indexOf(char) + (shift % 26) + 26) % 26;
+        const index = (alphabet.indexOf(char) + (shift % 26)) % 26;
         return alphabet[index];
       })
       .join('');
